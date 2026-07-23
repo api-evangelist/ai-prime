@@ -1,7 +1,27 @@
 aid: ai-prime
-name: ai-prime
-description: ai-prime is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ai-prime.png
+name: AI-Prime (Paidao Intelligence)
+description: 'AI-Prime (Paidao Intelligence / 湃道智能) is a Shanghai-based industrial-safety
+  AI company founded in 2017 that builds computer-vision, deep-learning, and knowledge-graph
+  platforms for high-hazard industries. Its full-stack products span an AI industrial-safety
+  monitoring cloud platform, 40+ safety-scenario models (PPE detection, unsafe behavior,
+  equipment leaks, fire/smoke, work-process compliance), a self-learning AI model-development
+  platform, and Prime-Edge smart hardware (edge-computing boxes, inspection robots, AR
+  work mirrors, and edge cameras) serving the chemical, steel, coal, oil & gas, energy,
+  and mining sectors. AI-Prime is a portfolio company of Qiming Venture Partners. It is
+  an enterprise B2B provider with no public developer API program; this profile captures
+  its identity and web presence.'
 url: https://raw.githubusercontent.com/api-evangelist/ai-prime/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,20 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Industrial Safety
+- Computer Vision
+- Artificial Intelligence
+- Deep Learning
+- Industrial IoT
+- Workplace Safety
+- Edge Computing
+- Chemical Industry
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ai-prime-domain-security.yml
 - type: Website
-  url: https://ai-prime.com
+  url: http://www.ai-prime.com
+- type: Blog
+  url: http://www.ai-prime.com/MediaCenter/index.aspx
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
