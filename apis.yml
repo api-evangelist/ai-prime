@@ -47,7 +47,7 @@ modified: '2026-07-17'
 tags:
 - Company
 - Industrial Safety
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Deep Learning
 - Industrial IoT
@@ -64,6 +64,7 @@ tags_raw:
 - Workplace Safety
 - Edge Computing
 - Chemical Industry
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
